@@ -1,6 +1,3 @@
----
----
-@import "{{site.theme}}";
 @charset "utf-8";
 
 $font-size: 18px;
@@ -18,9 +15,9 @@ $inline-code-background: #fff6f6;
 $block-code-background: #f2f2fa;
 $mark-background: rgba(yellow, 0.35);
 
-@import "scut";
-@import "reset";
-@import "utility";
-@import "typeface";
-@import "layout";
-@import "typography";
+@import "kagami/scut";
+@import "kagami/reset";
+@import "kagami/utility";
+@import "kagami/typeface";
+@import "kagami/layout";
+@import "kagami/typography";
