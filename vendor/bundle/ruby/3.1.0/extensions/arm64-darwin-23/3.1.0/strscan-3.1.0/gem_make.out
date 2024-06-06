@@ -1,0 +1,17 @@
+current directory: /Users/alexandruradu/Dev/alxdru.github.io/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/Users/alexandruradu/.rvm/rubies/ruby-3.1.1/bin/ruby -I /Users/alexandruradu/.rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20240606-91772-96b5mo.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/alexandruradu/Dev/alxdru.github.io/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= clean
+
+current directory: /Users/alexandruradu/Dev/alxdru.github.io/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\=
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/alexandruradu/Dev/alxdru.github.io/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 strscan.bundle ./.gem.20240606-91772-8qn159

@@ -1,1 +1,4 @@
-remote_theme: jekyll-theme-kagami
+theme: jekyll-theme-kagami
+exclude:
+  - Gemfile
+  - Gemfile.lock
